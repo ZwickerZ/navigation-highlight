@@ -1,8 +1,19 @@
+/* Header and Footer*/
 header {
   background-color: #ffe500;
-
 }
 
+body {
+  margin: 0;
+}
+
+.copyright {
+  font-size: 0.75rem;
+  text-align: center;
+  background-color: #ffe500;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+}
 h1 {
   font-family: 'Sigmar One', cursive;
   font-size: 3rem;
@@ -11,6 +22,26 @@ h1 {
   color: #b20953;
 }
 
+h2 {
+  color: #b20953;
+  font-family: 'Sigmar One', cursive;
+  font-size: 1.875rem;
+}
+
+/* Home Page Content */
+p {
+  font-family: georgia, serif;
+  line-height: 1.5;
+}
+
+section {
+  margin: .3em;
+}
+
+span {
+  font-weight: bold;
+}
+/* NAVIGATION CONTROLS */
 .nav {
   text-align: center;
   margin: 0;
@@ -18,7 +49,7 @@ h1 {
 }
 
 nav {
-  padding-bottom: 1rem;
+  padding-bottom: .6em;
 }
 
 .nav li {
