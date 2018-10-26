@@ -8,11 +8,11 @@ body {
 }
 
 .copyright {
-  font-size: 0.75rem;
+  font-size: .9rem;
   text-align: center;
   background-color: #ffe500;
-  padding-top: .75rem;
-  padding-bottom: .75rem;
+  padding-top: .8rem;
+  padding-bottom: .8rem;
 }
 h1 {
   font-family: 'Sigmar One', cursive;
@@ -35,7 +35,7 @@ p {
   margin-bottom: .3em;
 }
 
-section {
+main {
   margin: .75em;
 }
 
