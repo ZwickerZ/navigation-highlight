@@ -32,10 +32,11 @@ h2 {
 p {
   font-family: georgia, serif;
   line-height: 1.5;
+  margin-bottom: .3em;
 }
 
 section {
-  margin: .3em;
+  margin: .75em;
 }
 
 span {
@@ -76,4 +77,10 @@ a {
 
 .nav .current {
   background-color: #cc1465;
+}
+
+/* IMAGE CONTROLS */
+
+img {
+  width: 100%;
 }
