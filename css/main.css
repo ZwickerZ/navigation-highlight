@@ -2,8 +2,10 @@
   box-sizing: inherit;
 }
 
-/* Header and Footer*/
+/* Header and Footer */
+
 html {
+  box-sizing: border-box;
   color: #2f2d13;
 }
 
@@ -22,6 +24,7 @@ body {
   padding-top: .8rem;
   padding-bottom: .8rem;
 }
+
 h1 {
   font-family: "Sigmar One", cursive;
   font-size: 3rem;
@@ -32,7 +35,7 @@ h1 {
 
 h2 {
   color: #b20953;
-  font-family: 'Sigmar One', cursive;
+  font-family: "Sigmar One", cursive;
   font-size: 1.875rem;
 }
 
@@ -51,6 +54,7 @@ span {
   font-weight: bold;
 }
 /* NAVIGATION CONTROLS */
+
 .nav {
   text-align: center;
   margin: 0;
@@ -75,8 +79,9 @@ nav {
   color: white;
   /* Color padding and radius here under a to make it all linkable */
 }
+
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .nav a:hover {
