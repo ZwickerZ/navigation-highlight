@@ -1,4 +1,12 @@
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 /* Header and Footer*/
+html {
+  color: #2f2d13;
+}
+
 header {
   background-color: #ffe500;
 }
@@ -15,7 +23,7 @@ body {
   padding-bottom: .8rem;
 }
 h1 {
-  font-family: 'Sigmar One', cursive;
+  font-family: "Sigmar One", cursive;
   font-size: 3rem;
   text-align: center;
   margin: 0;
@@ -30,7 +38,7 @@ h2 {
 
 /* Home Page Content */
 p {
-  font-family: georgia, serif;
+  font-family: Georgia, serif;
   line-height: 1.5;
   margin-bottom: .3em;
 }
@@ -62,7 +70,7 @@ nav {
 
 .nav a {
   background-color: #b2a212;
-  padding: .4em .5em .4em;
+  padding: .4em .5em;
   border-radius: 4px;
   color: white;
   /* Color padding and radius here under a to make it all linkable */
@@ -83,4 +91,5 @@ a {
 
 img {
   width: 100%;
+  display: block;
 }
